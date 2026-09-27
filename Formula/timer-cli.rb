@@ -1,8 +1,8 @@
 class TimerCli < Formula
   desc "Run clear and reliable countdown timers from the terminal"
   homepage "https://onlinealarmkur.com/timer/en/"
-  url "https://github.com/onlinealarmkur/timer-cli/releases/download/v1.0.0/timer-cli_1.0.0_source.tar.gz"
-  sha256 "ec5bb55c9fd13bb619635c31a432518307e1a359c8556ef545bccc94c0379276"
+  url "https://github.com/onlinealarmkur/timer-cli/releases/download/v1.1.0/timer-cli_1.1.0_source.tar.gz"
+  sha256 "2de71feeea314230aee99ae01fd4962606a8c25511311af067ba7ee6985c66ce"
   license all_of: ["MIT", "BSD-3-Clause"]
 
   depends_on "go" => :build
